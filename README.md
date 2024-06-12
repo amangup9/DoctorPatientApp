@@ -1,10 +1,10 @@
-The Task
+# DoctorPatientApp
 
 We have a platform where doctors can register their patients through a mobile or web portal. For this to work we need to build backend APIs to achieve task like:
 
-    Adding a doctor & their speciality
-    Adding a patient & it’s symptom
-    Suggesting the doctor based on patient’s symptom
+    1) Adding a doctor & their speciality
+    2) Adding a patient & it’s symptom
+    3) Suggesting the doctor based on patient’s symptom
 
 # Doctor’s entity
 
@@ -48,7 +48,7 @@ Edge-Case 1: If there isn’t any doctor on that location (i.e. outside Delhi, N
 
 Edge-Case 2: If there isn’t any doctor for that symptom on that location, the response should be “There isn’t any doctor present at your location for your symptom”
 
-How do you need to achieve this task?
+How do we need to achieve this task?
 
-    You need to use Spring Boot Framework for core functionalities along with Hibernate for carrying out database operations.
-    Use Swagger to list all your APIs (optional but a very good plus point)
+    We need to use Spring Boot Framework for core functionalities along with Hibernate for carrying out database operations.
+    Use Swagger to list all our APIs 
