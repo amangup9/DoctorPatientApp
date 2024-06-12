@@ -1,0 +1,634 @@
+{
+	"info": {
+		"_postman_id": "2af0c693-5f1d-490e-aec3-4601966cb6bb",
+		"name": "com.medical.connect",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34874734"
+	},
+	"item": [
+		{
+			"name": "Doctor: Invalid City",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Manoj\",\r\n  \"city\": \"Hyderabad\",\r\n  \"email\": \"manoj@gmail.com\",\r\n  \"phone\": \"9876789876\",\r\n  \"speciality\": \"ORTHOPEDIC\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/doctor",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"doctor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Doctor: Invalid Name",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Ma\",\r\n  \"city\": \"Delhi\",\r\n  \"email\": \"manoj@gmail.com\",\r\n  \"phone\": \"9876789876\",\r\n  \"speciality\": \"ORTHOPEDIC\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/doctor",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"doctor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Doctor: Invalid Email",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Manoj\",\r\n  \"city\": \"Delhi\",\r\n  \"email\": \"manoj@@gmail.com\",\r\n  \"phone\": \"9876789876\",\r\n  \"speciality\": \"ORTHOPEDIC\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/doctor",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"doctor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Doctor: Invalid Phone",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Manoj\",\r\n  \"city\": \"Delhi\",\r\n  \"email\": \"manoj@gmail.com\",\r\n  \"phone\": \"98769876\",\r\n  \"speciality\": \"ORTHOPEDIC\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/doctor",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"doctor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Doctor: Invalid Speciality",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Manoj\",\r\n  \"city\": \"Delhi\",\r\n  \"email\": \"manoj@gmail.com\",\r\n  \"phone\": \"9876789876\",\r\n  \"speciality\": \"ORTHO\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/doctor",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"doctor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Doctor: Saved 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Manoj\",\r\n  \"city\": \"Delhi\",\r\n  \"email\": \"manoj@gmail.com\",\r\n  \"phone\": \"9876789876\",\r\n  \"speciality\": \"ORTHOPEDIC\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/doctor",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"doctor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Doctor: Saved 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Dheeraj\",\r\n  \"city\": \"Delhi\",\r\n  \"email\": \"Dheeraj@gmail.com\",\r\n  \"phone\": \"9876783876\",\r\n  \"speciality\": \"ORTHOPEDIC\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/doctor",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"doctor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Doctor: Saved 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Sanket\",\r\n  \"city\": \"Noida\",\r\n  \"email\": \"sanket@gmail.com\",\r\n  \"phone\": \"9876129876\",\r\n  \"speciality\": \"DERMATOLOGY\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/doctor",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"doctor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Doctor: Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/doctor?id=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"doctor"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Doctor: Invalid Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/doctor?id=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"doctor"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patient: Invalid Name",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Ma\",\r\n  \"city\": \"Delhi\",\r\n  \"email\": \"manoj@gmail.com\",\r\n  \"phone\": \"9876789876\",\r\n  \"symptom\": \"BACK_PAIN\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/patient",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patient: Invalid City",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Manoj\",\r\n  \"city\": \"Delhijlkjljlkjlkjlkjlkjlkjkljkljlk\",\r\n  \"email\": \"manoj@gmail.com\",\r\n  \"phone\": \"9876789876\",\r\n  \"symptom\": \"BACK_PAIN\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/patient",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patient: Invalid Email",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Manoj\",\r\n  \"city\": \"Delhi\",\r\n  \"email\": \"manoj@@gmail.com\",\r\n  \"phone\": \"9876789876\",\r\n  \"symptom\": \"BACK_PAIN\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/patient",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patient: Invalid Phone",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Manoj\",\r\n  \"city\": \"Delhi\",\r\n  \"email\": \"manoj@gmail.com\",\r\n  \"phone\": \"98789876\",\r\n  \"symptom\": \"BACK_PAIN\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/patient",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patient: Invalid Symptom",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Manoj\",\r\n  \"city\": \"Delhi\",\r\n  \"email\": \"manoj@gmail.com\",\r\n  \"phone\": \"9876789876\",\r\n  \"symptom\": \"BACK\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/patient",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patient: Saved 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Shubham\",\r\n  \"city\": \"Delhi\",\r\n  \"email\": \"shubham@gmail.com\",\r\n  \"phone\": \"9878987690\",\r\n  \"symptom\": \"BACK_PAIN\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/patient",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patient: Saved 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Ravi\",\r\n  \"city\": \"Hyderabad\",\r\n  \"email\": \"ravi@gmail.com\",\r\n  \"phone\": \"9878978690\",\r\n  \"symptom\": \"BACK_PAIN\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/patient",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patient: Saved 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Raman\",\r\n  \"city\": \"Delhi\",\r\n  \"email\": \"raman@gmail.com\",\r\n  \"phone\": \"9878987690\",\r\n  \"symptom\": \"SKIN_BURN\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/patient",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patient: Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/patient?id=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patient: Invalid Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/patient?id=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Query: Patient Doesn't Exist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/query?patientId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"query"
+					],
+					"query": [
+						{
+							"key": "patientId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Query: Result",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/query?patientId=36",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"query"
+					],
+					"query": [
+						{
+							"key": "patientId",
+							"value": "36"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Query: Not At Location",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/query?patientId=37",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"query"
+					],
+					"query": [
+						{
+							"key": "patientId",
+							"value": "37"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Query: Not for Symptom",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/query?patientId=38",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"query"
+					],
+					"query": [
+						{
+							"key": "patientId",
+							"value": "38"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
